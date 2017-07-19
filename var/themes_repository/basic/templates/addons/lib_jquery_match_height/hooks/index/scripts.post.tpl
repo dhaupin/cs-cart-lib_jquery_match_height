@@ -2,10 +2,10 @@
 
 {literal}
 <script type="text/javascript" async>
-var elements = '.matchheight, .matchHeight, .MatchHeight';
+var matchHeights = '.matchheight, .matchHeight, .MatchHeight';
 
 function matchElement() {
-	$(elements).matchHeight({
+	$(matchHeights).matchHeight({
 		byRow: true
 	});
 }
