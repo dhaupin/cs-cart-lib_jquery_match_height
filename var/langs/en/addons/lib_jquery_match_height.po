@@ -1,0 +1,32 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::lib_jquery_match_height"
+msgid "Library - jQuery Match Height"
+msgstr "Library - jQuery Match Height"
+
+msgctxt "Addons::description::lib_jquery_match_height"
+msgid "DEPENDENCY ADDON: Adds the matchHeight() script. Uses .matchheight, .matchHeight, or .MatchHeight classes. Requires underscore.js addon. <a href=\"https://github.com/dhaupin/cs-cart-lib_underscore_js\" target=\"_blank\">[Download]</a>."
+msgstr DEPENDENCY ADDON: Adds the matchHeight() script. Uses .matchheight, .matchHeight, or .MatchHeight classes. Requires underscore.js addon. <a href=\"https://github.com/dhaupin/cs-cart-lib_underscore_js\" target=\"_blank\">[Download]</a>."
+
+#. .....................................................
+msgctxt "SettingsOptions::lib_jquery_match_height::addon_general"
+msgid "General Settings"
+msgstr "General Settings"
+
+#. .....................................................
+msgctxt "SettingsOptions::lib_jquery_match_height::addon_tools"
+msgid "Addon Tools"
+msgstr "Addon Tools"
+
+#. .....................................................
+msgctxt "SettingsOptions::lib_jquery_match_height::match_height_enable"
+msgid "Enable Addon?"
+msgstr "Enable Addon?"
+
+msgctxt "SettingsTooltips::lib_jquery_match_height::match_height_enable"
+msgid "Allows you to enable/disable this addon on a per-store basis."
+msgstr "Allows you to enable/disable this addon on a per-store basis."
