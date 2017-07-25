@@ -9,8 +9,8 @@ msgid "Library - jQuery Match Height"
 msgstr "Library - jQuery Match Height"
 
 msgctxt "Addons::description::lib_jquery_match_height"
-msgid "DEPENDENCY ADDON: Adds the matchHeight() script. Uses .matchheight, .matchHeight, or .MatchHeight classes. Requires underscore.js addon. <a href=\"https://github.com/dhaupin/cs-cart-lib_underscore_js\" target=\"_blank\">[Download]</a>."
-msgstr DEPENDENCY ADDON: Adds the matchHeight() script. Uses .matchheight, .matchHeight, or .MatchHeight classes. Requires underscore.js addon. <a href=\"https://github.com/dhaupin/cs-cart-lib_underscore_js\" target=\"_blank\">[Download]</a>."
+msgid "DEPENDENCY ADDON: Adds the jQuery matchHeight() script. Uses .matchheight, .matchHeight, or .MatchHeight classes. Requires underscore.js addon. <a href=\"https://github.com/dhaupin/cs-cart-lib_underscore_js\" target=\"_blank\">\[Download\]</a>."
+msgstr "DEPENDENCY ADDON: Adds the jQuery matchHeight script. Uses .matchheight, .matchHeight, or .MatchHeight classes. Requires underscore.js addon. <a href=\"https://github.com/dhaupin/cs-cart-lib_underscore_js\" target=\"_blank\">\[Download\]</a>."
 
 #. .....................................................
 msgctxt "SettingsOptions::lib_jquery_match_height::addon_general"
