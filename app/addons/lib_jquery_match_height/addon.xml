@@ -2,7 +2,6 @@
 <addon scheme="2.0" edition_type="ROOT,ULT:VENDOR">
 	<id>lib_jquery_match_height</id>
 	<version>1.1.0</version>
-	<default_language>en</default_language>
 	<name>Library - jQuery Match Height</name>
 	<description><![CDATA[DEPENDENCY ADDON: Adds the matchHeight() script. Uses .matchheight, .matchHeight, or .MatchHeight classes. Requires underscore/lodash. <a href="https://github.com/dhaupin/cs-cart-lib_underscore_js" target="_blank">Found here.</a>.]]></description>
 	<priority>1000000</priority>
