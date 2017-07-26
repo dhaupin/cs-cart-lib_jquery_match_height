@@ -23,6 +23,7 @@
 	<settings>
 		<sections>
 			<section id="general">
+				<name>General</name>
 				<items>
 					<!--<item id="addon_general">
 						<type>header</type>
