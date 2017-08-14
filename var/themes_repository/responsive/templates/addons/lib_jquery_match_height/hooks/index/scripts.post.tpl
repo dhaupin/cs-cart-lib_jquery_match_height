@@ -1,21 +1,33 @@
 {if $addons.lib_jquery_match_height.match_height_enable == "Y"}
-{script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"}
+	{script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"}
 
-{literal}
-<script type="text/javascript" async>
-var matchHeights = '.matchheight, .matchHeight, .MatchHeight';
+	{literal}
+	<script type="text/javascript" async>
+	if ($.isFunction(_.debounce)) {
+	
+		var matchByRow = '.matchheight, .matchHeight, .MatchHeight',
+			matchNoRow = '.ty-grid-list__item .ty-grid-list__item-name, .vs-grid .title-price-wrapper';
 
-function matchElement() {
-	$(matchHeights).matchHeight({
-		byRow: true
-	});
-}
+		function matchElement(elements, rows = true) {
+			$(elements).matchHeight({
+				byRow: rows
+			});
+		}
 
-matchElement();
+		function matchAll() {
+			matchElement(matchByRow, true);
+			matchElement(matchNoRow, false);
+		}
+		
+		$(window).resize(_.debounce(function(){
+			matchAll();
+		}, 100)).trigger('resize');
+		
+		matchAll();
 
-$(window).resize(_.debounce(function(){
-	matchElement();
-}, 100)).trigger('resize');
-</script>
-{/literal}
+	} else {
+		console.log('Error: SEO Field Lengths require the _.debounce() function from the Underscore library. Please install or activate the UnderscoreJS addon.');
+	}
+	</script>
+	{/literal}
 {/if}
