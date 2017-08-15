@@ -26,7 +26,7 @@
 		matchAll();
 
 	} else {
-		console.log('Error: SEO Field Lengths require the _.debounce() function from the Underscore library. Please install or activate the UnderscoreJS addon.');
+		console.log('Error: jQuery matchHeight requires the _.debounce() function from the Underscore library. Please install or activate the UnderscoreJS addon.');
 	}
 	</script>
 	{/literal}
