@@ -18,6 +18,24 @@ msgid "General Settings"
 msgstr "General Settings"
 
 #. .....................................................
+msgctxt "SettingsOptions::lib_jquery_match_height::match_height_by_row"
+msgid "Elements to Match By Parent Row"
+msgstr "Elements to Match By Parent Row"
+
+msgctxt "SettingsTooltips::lib_jquery_match_height::match_height_by_row"
+msgid "A comma seperated list of selectors to match. This looks for a parent element that is a row, so each row can have different heights."
+msgstr "A comma seperated list of selectors to match. This looks for a parent element that is a row, so each row can have different heights."
+
+#. .....................................................
+msgctxt "SettingsOptions::lib_jquery_match_height::match_height_no_row"
+msgid "Elements to Match Globally"
+msgstr "Elements to Match Globally"
+
+msgctxt "SettingsTooltips::lib_jquery_match_height::match_height_no_row"
+msgid "A comma seperated list of selectors to match. This ignores rows and sets height based on the largest element."
+msgstr "A comma seperated list of selectors to match. This ignores rows and sets height based on the largest element."
+
+#. .....................................................
 msgctxt "SettingsOptions::lib_jquery_match_height::addon_tools"
 msgid "Addon Tools"
 msgstr "Addon Tools"

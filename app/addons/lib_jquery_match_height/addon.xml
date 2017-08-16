@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
 	<id>lib_jquery_match_height</id>
-	<version>1.3.0</version>
+	<version>1.4.0</version>
 	<priority>1000000</priority>
 	<position>0</position>
 	<status>active</status>
@@ -25,10 +25,16 @@
 			<section id="general">
 				<name>General</name>
 				<items>
-					<!--<item id="addon_general">
+					<item id="addon_general">
 						<type>header</type>
 						<handler></handler>
-					</item>!-->
+					</item>
+					<item id="match_height_by_row">
+						<type>textarea</type>
+					</item>
+					<item id="match_height_no_row">
+						<type>textarea</type>
+					</item>
 					<item id="addon_tools">
 						<type>header</type>
 						<handler></handler>
