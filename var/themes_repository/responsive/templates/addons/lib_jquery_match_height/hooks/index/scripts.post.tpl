@@ -1,5 +1,5 @@
 {if $addons.lib_jquery_match_height.match_height_enable == "Y"}
-	{script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"}
+	{script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"}
 
 	<script type="text/javascript">
 
